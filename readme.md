@@ -2,7 +2,7 @@ This **code** might help
 * Use this
 * using System.IO;
 * using System.IO.Compression;
-<code>
+`
 public void ComprimirArchivo(string rutaFinal, string nombreArchivoXML, string nombreArchivoZip)
 {
 	//string rutaArchivo = @"F:\Archivos\FACTURACION_ELECTRONICA\xmlPrueba\firmados\20100762936-01-F001-0000006.xml";
@@ -15,8 +15,9 @@ public void ComprimirArchivo(string rutaFinal, string nombreArchivoXML, string n
 		zip.CreateEntryFromFile(rutaArchivo, nombreArchivoXML);
 	}
 }
-</code>
-<code>
+`
+* 
+`
 public string DecomprimirArchivo(string rutaFinal, string nombreArchivoZip)
 {
 	//string rutaArchivo = @"F:\Archivos\FACTURACION_ELECTRONICA\xmlPrueba\firmados\";
@@ -37,4 +38,4 @@ public string DecomprimirArchivo(string rutaFinal, string nombreArchivoZip)
 	}
 	return cadena;
 }
-</code>
+`
